@@ -11,6 +11,10 @@ public class Cylinder extends Circle{
 	return height;
     }
 
+    public double getVolume() {
+	return Math.PI * Math.pow(radius,2) * height;
+    }
+
     public String toString(){
 	return "FIXME!";
     }
